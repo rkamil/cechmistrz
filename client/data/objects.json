@@ -1,0 +1,162 @@
+{
+    "2": {
+        "name": "Drzewko",
+        "width": 32,
+        "height": 48,
+        "image": "images/tree.png",
+        "collidable": true,
+        "center-x": 0,
+        "center-y": 16
+    },
+    "3": {
+        "name": "Ścieżka V",
+        "width": 32,
+        "height": 32,
+        "image": "images/path_1.png",
+        "collidable": false,
+        "center-x": 0,
+        "center-y": 0,
+        "flat": true
+    },
+    "4": {
+        "name": "Ścieżka H",
+        "width": 32,
+        "height": 32,
+        "image": "images/path_2.png",
+        "collidable": false,
+        "center-x": 0,
+        "center-y": 0,
+        "flat": true
+    },
+    "5": {
+        "name": "Ścieżka lewo-dół",
+        "width": 32,
+        "height": 32,
+        "image": "images/path_3.png",
+        "collidable": false,
+        "center-x": 0,
+        "center-y": 0,
+        "flat": true
+    },
+    "6": {
+        "name": "Ścieżka lewo-góra",
+        "width": 32,
+        "height": 32,
+        "image": "images/path_4.png",
+        "collidable": false,
+        "center-x": 0,
+        "center-y": 0,
+        "flat": true
+    },
+    "7": {
+        "name": "Ścieżka góra-prawo",
+        "width": 32,
+        "height": 32,
+        "image": "images/path_5.png",
+        "collidable": false,
+        "center-x": 0,
+        "center-y": 0,
+        "flat": true
+    },
+    "8": {
+        "name": "Ścieżka dół-prawo",
+        "width": 32,
+        "height": 32,
+        "image": "images/path_6.png",
+        "collidable": false,
+        "center-x": 0,
+        "center-y": 0,
+        "flat": true
+    },
+    "9": {
+        "name": "Woda lewo-góra",
+        "width": 32,
+        "height": 32,
+        "image": "images/water_0_0.png",
+        "collidable": true,
+        "center-x": 0,
+        "center-y": 0,
+        "flat": true
+    },
+    "10": {
+        "name": "Woda góra",
+        "width": 32,
+        "height": 32,
+        "image": "images/water_0_1.png",
+        "collidable": true,
+        "center-x": 0,
+        "center-y": 0,
+        "flat": true
+    },
+    "11": {
+        "name": "Woda prawo-góra",
+        "width": 32,
+        "height": 32,
+        "image": "images/water_0_2.png",
+        "collidable": true,
+        "center-x": 0,
+        "center-y": 0,
+        "flat": true
+    },
+    "12": {
+        "name": "Woda lewo",
+        "width": 32,
+        "height": 32,
+        "image": "images/water_1_0.png",
+        "collidable": true,
+        "center-x": 0,
+        "center-y": 0,
+        "flat": true
+    },
+    "13": {
+        "name": "Woda",
+        "width": 32,
+        "height": 32,
+        "image": "images/water_1_1.png",
+        "collidable": true,
+        "center-x": 0,
+        "center-y": 0,
+        "flat": true
+    },
+    "14": {
+        "name": "Woda prawo",
+        "width": 32,
+        "height": 32,
+        "image": "images/water_1_2.png",
+        "collidable": true,
+        "center-x": 0,
+        "center-y": 0,
+        "flat": true
+    },
+    "15": {
+        "name": "Woda lewo-dół",
+        "width": 32,
+        "height": 32,
+        "image": "images/water_2_0.png",
+        "collidable": true,
+        "center-x": 0,
+        "center-y": 0,
+        "flat": true
+    },
+    "16": {
+        "name": "Woda dół",
+        "width": 32,
+        "height": 32,
+        "image": "images/water_2_1.png",
+        "collidable": true,
+        "center-x": 0,
+        "center-y": 0,
+        "flat": true
+    },
+    "17": {
+        "name": "Woda prawo-dół",
+        "width": 32,
+        "height": 32,
+        "image": "images/water_2_2.png",
+        "collidable": true,
+        "center-x": 0,
+        "center-y": 0,
+        "flat": true
+    }
+
+}

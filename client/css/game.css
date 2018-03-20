@@ -1,0 +1,120 @@
+body {
+    background-color: lightslategray;
+}
+
+.main {
+    margin: 0px auto;
+    width: 1200px;
+    height: 640px;
+}
+
+.game {
+    position: relative;
+    float: left;
+    width: 896px;
+    height: 640px;
+    background-color: lightslategray;
+    overflow: hidden;
+    display: none;
+}
+
+.panel {
+    float: left;
+    position: relative;
+    width: 304px;
+    height: 640px;
+    background-color: burlywood;
+    overflow: hidden;
+    text-align: center;
+    display: none;
+}
+
+.chat {
+    position: absolute;
+    bottom: 0px;
+    float: left;
+    width: 304px;
+    height: 300px;
+    background-color: #c1a580;
+}
+
+.chat-messages {
+    width: 100%;
+    height: 280px;
+    overflow-wrap: break-word;
+    overflow-y: auto;
+    text-align: left;
+}
+
+.chat-input {
+    width: 100%;
+    height: 20px;
+    border: 0px;
+    background-color: lightgray;
+    width: 100%;
+}
+
+.chat-message {
+    float: left;
+    width: 100%;
+}
+
+.chat-nick {
+    float: left;
+    font-weight: bold;
+}
+
+.chat-txt {
+    margin-left: 5px;
+}
+
+.loading {
+    float: left;
+    width: 1200px;
+    height: 640px;
+    background-color: lightslategray;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+.disconnected {
+    float: left;
+    width: 1200px;
+    height: 640px;
+    background-color: lightslategray;
+    margin: 0 auto;
+    text-align: center;
+    display: none;
+}
+
+.map_object {
+    position: absolute;
+    z-index: 100;
+}
+
+.player {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    z-index: 100;
+    background-image: url('../images/char1.png');
+    background-position-x: -32px;
+}
+
+.other {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    z-index: 100;
+    background-image: url('../images/char2.png');
+    background-position-x: -32px;
+}
+
+.gate {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    z-index: 100;
+    background-color: rgba(0, 0, 255, 0.5);
+}
