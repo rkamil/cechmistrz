@@ -10,8 +10,8 @@ var map = require('./map.js');
 
 // dane połączenia z serwerem
 var server = {
-    url: 'ws://ws.cechmistrz.usermd.net',
-    dataUrl: 'http://http.cechmistrz.usermd.net/',
+    url: 'ws://rkamil.nazwa.pl:9344',
+    dataUrl: 'http://rkamil.nazwa.pl:1444',
     connection: null
 };
 
